@@ -1,0 +1,52 @@
+<table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #333333; max-width: 500px;">
+  <tr>
+    <td style="padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td width="100" style="padding-right: 20px; vertical-align: top;">
+            <img src="https://media.licdn.com/dms/image/v2/D4E35AQEOuaPibbZ5iQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1727088484999?e=1731348000&v=beta&t=QLC-1e6R_LT6F8huHJkPWlm_KqYgZ311ColhIb_kJj8" alt="Photo de profil" width="100" height="100" style="border-radius: 50%; border: 3px solid #0066cc;">
+          </td>
+          <td style="vertical-align: top;">
+            <h2 style="margin: 0 0 10px 0; font-size: 20px; color: #0066cc;">Prénom Nom</h2>
+            <p style="margin: 0 0 15px 0; color: #666666; font-style: italic;">Titre / Poste</p>
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="padding-bottom: 5px;">
+                  <i class="fas fa-phone" style="color: #0066cc; margin-right: 5px;"></i>
+                  <a href="tel:+33123456789" style="color: #0066cc; text-decoration: none;">+33 1 23 45 67 89</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-bottom: 5px;">
+                  <i class="fas fa-envelope" style="color: #0066cc; margin-right: 5px;"></i>
+                  <a href="mailto:prenom.nom@example.com" style="color: #0066cc; text-decoration: none;">prenom.nom@example.com</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-bottom: 10px;">
+                  <i class="fas fa-globe" style="color: #0066cc; margin-right: 5px;"></i>
+                  <a href="https://www.example.com" style="color: #0066cc; text-decoration: none;">www.example.com</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://www.linkedin.com/in/votre-profil" style="text-decoration: none; margin-right: 10px;">
+                    <i class="fab fa-linkedin" style="color: #0077B5; font-size: 20px;"></i>
+                  </a>
+                  <a href="https://twitter.com/votre-compte" style="text-decoration: none; margin-right: 10px;">
+                    <i class="fab fa-twitter" style="color: #1DA1F2; font-size: 20px;"></i>
+                  </a>
+                  <a href="https://www.facebook.com/votre-page" style="text-decoration: none;">
+                    <i class="fab fa-facebook" style="color: #4267B2; font-size: 20px;"></i>
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
