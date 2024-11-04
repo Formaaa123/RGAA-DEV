@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démonstration d'accessibilité simplifiée - Nom de l'entreprise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header role="banner">
+        <h1>Nom de l'entreprise - Accessibilité simplifiée</h1>
+        <nav role="navigation" aria-label="Menu principal">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" role="main">
+        <section id="accueil">
+            <h2>Bienvenue sur notre site</h2>
+            <p>Cette page démontre des techniques d'accessibilité web simplifiées.</p>
+        </section>
+
+        <section id="produits">
+            <h2>Nos produits</h2>
+            
+            <table>
+                <caption>Ventes trimestrielles 2023</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Trimestre</th>
+                        <th scope="col">Ventes (en €)</th>
+                        <th scope="col">Croissance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">T1</th>
+                        <td>100 000</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">T2</th>
+                        <td>120 000</td>
+                        <td>+20%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">T3</th>
+                        <td>150 000</td>
+                        <td>+25%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">T4</th>
+                        <td>180 000</td>
+                        <td>+20%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Nos produits phares</h3>
+            <ul>
+                <li>
+                    <img src="produit1.jpg" alt="Description du produit 1">
+                    <p>Produit 1</p>
+                </li>
+                <li>
+                    <img src="produit2.jpg" alt="Description du produit 2">
+                    <p>Produit 2</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form action="/submit" method="post">
+                <div>
+                    <label for="name">Nom (obligatoire) :</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+                <div>
+                    <label for="email">Email (obligatoire) :</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <div>
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2024 Nom de l'entreprise</p>
+    </footer>
+
+    <script>
+    // Gestion simple du formulaire
+    document.querySelector('form').addEventListener('submit', function(event) {
+        var name = document.getElementById('name');
+        var email = document.getElementById('email');
+
+        if (!name.value.trim() || !email.value.trim()) {
+            event.preventDefault();
+            alert('Veuillez remplir tous les champs obligatoires.');
+        }
+    });
+    </script>
+</body>
+</html>
