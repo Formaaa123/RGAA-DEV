@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tableau accessible</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        thead th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Ventes trimestrielles par région</caption>
+        <thead>
+            <tr>
+                <th scope="col">Région</th>
+                <th scope="col">T1</th>
+                <th scope="col">T2</th>
+                <th scope="col">T3</th>
+                <th scope="col">T4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Nord</th>
+                <td>10 000 €</td>
+                <td>12 000 €</td>
+                <td>15 000 €</td>
+                <td>18 000 €</td>
+            </tr>
+            <tr>
+                <th scope="row">Sud</th>
+                <td>9 000 €</td>
+                <td>11 000 €</td>
+                <td>13 000 €</td>
+                <td>16 000 €</td>
+            </tr>
+            <tr>
+                <th scope="row">Est</th>
+                <td>8 000 €</td>
+                <td>10 000 €</td>
+                <td>12 000 €</td>
+                <td>14 000 €</td>
+            </tr>
+            <tr>
+                <th scope="row">Ouest</th>
+                <td>11 000 €</td>
+                <td>13 000 €</td>
+                <td>16 000 €</td>
+                <td>19 000 €</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
