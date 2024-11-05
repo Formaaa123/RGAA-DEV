@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma page web</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Produits</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Bienvenue sur notre site</h1>
+        
+        <p>Cliquez <a href="https://example.com">ici</a> pour plus d'informations.</p>
+        
+        <p>Téléchargez notre brochure <a href="brochure.pdf">ici</a>.</p>
+        
+        <a href="https://facebook.com"><img src="facebook-icon.png"></a>
+        
+        <a href="javascript:void(0)" onclick="openModal()">Ouvrir la fenêtre modale</a>
+    </main>
+    
+    <footer>
+        <a href="#">Haut de page</a>
+    </footer>
+</body>
+</html>
