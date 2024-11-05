@@ -1,0 +1,14 @@
+<h1>Nos meilleures recettes</h1>
+
+<img src="img1.jpg" width="300" height="200">
+<p>Tarte aux pommes classique</p>
+
+<img src="img2.jpg" width="300" height="200">
+<p>Salade César maison</p>
+
+<h2>Vidéo de la semaine</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/abcdefghijk"></iframe>
+
+<h2>Notre chef étoilé</h2>
+<img src="img3.jpg" width="200" height="200">
+<p>Chef Jean Dupont</p>
