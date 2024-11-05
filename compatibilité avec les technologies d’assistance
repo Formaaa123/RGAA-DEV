@@ -1,0 +1,14 @@
+<h1>Ma galerie multimédia</h1>
+
+<img src="photo1.jpg">
+<p>Ma photo de vacances</p>
+
+<video src="video1.mp4" autoplay>
+  <p>Vidéo de présentation</p>
+</video>
+
+<audio src="musique.mp3" loop>
+  <p>Ma chanson préférée</p>
+</audio>
+
+<iframe src="https://www.youtube.com/embed/abcdefghijk"></iframe>
