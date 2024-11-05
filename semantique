@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Nature</title>
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header>
+    <h1>Blog Nature</h1>
+    <p>Explorer la nature et les merveilles du monde</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#articles">Articles</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenu principal -->
+  <main>
+    <!-- Article principal -->
+    <article>
+      <h2>Les forêts tropicales</h2>
+      
+      <!-- Section 1 : Introduction -->
+      <section>
+        <h3>Introduction</h3>
+        <p>Les forêts tropicales sont des écosystèmes riches en biodiversité qui couvrent environ 7 % de la surface terrestre...</p>
+      </section>
+
+      <!-- Section 2 : Image et légende -->
+      <section>
+        <figure>
+          <img src="foret_tropicale.jpg" alt="Photo de la forêt tropicale">
+          <figcaption>Les forêts tropicales abritent une variété d'espèces uniques.</figcaption>
+        </figure>
+      </section>
+    </article>
+  </main>
+
+  <!-- Barre latérale -->
+  <aside>
+    <h3>Conseils pour préserver l'environnement</h3>
+    <ul>
+      <li>Réduire votre empreinte carbone</li>
+      <li>Éviter le plastique à usage unique</li>
+      <li>Planter des arbres</li>
+    </ul>
+  </aside>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>© 2024 Blog Nature</p>
+    <p>Suivez-nous : <a href="#facebook">Facebook</a> | <a href="#twitter">Twitter</a> | <a href="#instagram">Instagram</a></p>
+  </footer>
+
+</body>
+</html>
